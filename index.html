@@ -21,7 +21,7 @@
                 </div>
                 <p class="name">SAMSUNG</p>
             </div>
-            <div class="screen">
+            <div id="screen">
                 <div class="top-icons">
                     <small>MTN-StaySafe</small>
                     <div class="icons">
@@ -36,10 +36,10 @@
                         </span>
                     </div>
                 </div>
-                <div class="display">
+                <div id="display">
                     <div class="firstset">
                         <img src="./calculator.png" alt="">
-                        <img src="./camera.png" alt="">
+                        <button onclick="openCamera()"><img src="./camera.png" alt=""></button>
                         <img src="./clock.png" alt="">
                         <img src="./music.png" alt="">
                     </div>
@@ -52,6 +52,9 @@
                     </div>
                 </div>
             </div>
+            <div id="camera">
+                <video src="" width="100%" height="350px" id="video" autoplay></video>
+            </div>
             <div class="bottomitems">
                 <span class="material-symbols-outlined">
                     filter_none
@@ -59,7 +62,7 @@
                 <div class="homekey"></div>
                 <span class="material-symbols-outlined">
                     undo
-                    </span>
+                </span>
             </div>
         </div>
     </main>
