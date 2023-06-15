@@ -41,25 +41,42 @@
                         <img src="./calculator.png" alt="">
                         <button onclick="openCamera()"><img src="./camera.png" alt=""></button>
                         <img src="./clock.png" alt="">
-                        <img src="./music.png" alt="">
+                        <button>
+                            <img src="./music.png" alt="">
+                        </button>
                     </div>
                     <div class="secondset">
-                        <img src="./phone (1).png" alt="">
-                        <img src="./contacts (1).png" alt="">
-                        <img src="./photo-gallery (1).png" alt="">
-                        <img src="./internet (1).png" alt="">
-                        <img src="./apps (1).png" alt="">
+                        <button>
+                            <img src="./phone (1).png" alt="">
+                        </button>
+                        <button>
+                            <img src="./contacts (1).png" alt="">
+                        </button>
+                        <button>
+                            <img src="./photo-gallery (1).png" alt="">
+                        </button>
+                        <button>
+                            <img src="./internet (1).png" alt="">
+                        </button>
+                        <button>
+                            <img src="./apps (1).png" alt="">
+                        </button>
                     </div>
                 </div>
             </div>
             <div id="camera">
-                <video src="" width="100%" height="350px" id="video" autoplay></video>
+                <video src="" width="100%" height="200px" id="video" autoplay style="background-color: red;"></video>
+                <canvas id="canvas"></canvas>
+                <div class="camlower">
+                    
+                    <button id="shutter"></button>
+                </div>
             </div>
             <div class="bottomitems">
                 <span class="material-symbols-outlined">
                     filter_none
                     </span>
-                <div class="homekey"></div>
+                <button class="homekey" onclick="home()"></button>
                 <span class="material-symbols-outlined">
                     undo
                 </span>
